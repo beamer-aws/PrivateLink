@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  # Insert name
+  - name: ""
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys:
+      # Insert ssh keypair
+      - ""
